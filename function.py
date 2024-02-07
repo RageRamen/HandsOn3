@@ -32,12 +32,12 @@ def create_plot(results):
     # Plotting
     plt.plot(sizes, times, marker='o', linestyle='-', color='b', label='Actual Runtime')
     plt.plot(sizes, estimated_curve(sizes), linestyle='--', color='black', label='Estimated Curve')
-    plt.plot(sizes, upper_bound(sizes), linestyle='--', color='red', label='Upper bound 2(n^2+1)')
-    plt.plot(sizes, lower_bound(sizes), linestyle='--', color='green', label='Lower bound (1/2)(n^2+1)')
+    plt.plot(sizes, upper_bound(sizes), linestyle='--', color='red', label='Upper bound 2(n^2)')
+    plt.plot(sizes, lower_bound(sizes), linestyle='--', color='green', label='Lower bound (1/2)(n^2)')
 
 
     # Add a vertical line or marker for n0
-    plt.axvline(x=1, color='r', linestyle='--', label=f'Approx. n0 at x=1')
+    plt.axvline(x=35, color='r', linestyle='--', label=f'Approx. n0 at x=35')
 
     plt.xlabel('n value')
     plt.ylabel('Runtime (seconds)')

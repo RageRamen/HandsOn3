@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90024b37-efba-49e0-94fd-373140f384b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="90024b37-efba-49e0-94fd-373140f384b0" name="Changes" comment="Fixed graphs.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergesort.py" beforeDir="false" afterPath="$PROJECT_DIR$/mergesort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modified_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/modified_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +84,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706940975788</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed graphs.">
+      <option name="closed" value="true" />
+      <created>1707211441889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707211441890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed graphs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed graphs." />
   </component>
 </project>
